@@ -204,7 +204,7 @@ class FeatureVisualization():
 
 if __name__=='__main__':
     # get class
-    selected_layers = [0,2,5,7]
+    selected_layers = [0,2,5,7,10]
     image_path = './input_images/snake.jpg'
     feature_vis = FeatureVisualization(image_path,selected_layers)
     print (feature_vis.pretrained_model)
